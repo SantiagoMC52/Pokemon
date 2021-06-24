@@ -3,7 +3,7 @@
 <p align="center">
     <img src="https://trello-attachments.s3.amazonaws.com/606b2ae98fdcaf38c8ff3ea2/60b491868ec961305b7e731f/9760f7e41161342847bc5311c8aff432/dashboard.PNG" alt="pokemons-dashboard">
     <img src="https://trello-attachments.s3.amazonaws.com/606b2ae98fdcaf38c8ff3ea2/60b491868ec961305b7e731f/634d3c99a1675fd77a5a2fe3e28ed744/list.PNG" alt="pokemons-list">
-    <img src="https://trello-attachments.s3.amazonaws.com/60b491868ec961305b7e731f/1008x644/bcc2b720215a655c951f7f4d38c728f8/detail.PNG.png" alt="pokemons-detail">
+    <img src="https://trello-attachments.s3.amazonaws.com/606b2ae98fdcaf38c8ff3ea2/60b491868ec961305b7e731f/64489811bf453930aee564ca16fb9a1f/detail.PNG" alt="pokemons-detail">
 </p>
 
 ## How to run the app
