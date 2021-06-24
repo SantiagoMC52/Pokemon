@@ -1,0 +1,50 @@
+body {
+    background-image: url('./../../images/landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-dash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Zen Dots', cursive;
+}
+
+#dash-container {
+    display: flex;
+    justify-content: space-between;
+
+    ol {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        list-style: none;
+        align-items: center;
+        margin-top: 190px;
+    }
+}

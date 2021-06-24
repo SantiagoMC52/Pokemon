@@ -1,0 +1,112 @@
+body {
+  background-image: url("./../../images/landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  width: 220px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgreen;
+  text-align: center;
+  font-family: 'Zen Dots', cursive;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.pokemons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#pokemons-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#pokemons-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  margin-top: 120px;
+  font-size: 20px;
+}
+
+#pokemons-container ul li {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+#header-pokemons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Zen Dots', cursive;
+}
+
+#footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+#back-btn,
+#next-btn {
+  margin-left: 5px;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: lightgreen;
+  font-family: 'Zen Dots', cursive;
+}
+
+#back-btn:hover,
+#next-btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+/*# sourceMappingURL=pokemons.css.map */

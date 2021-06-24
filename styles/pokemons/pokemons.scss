@@ -1,0 +1,84 @@
+body {
+    background-image: url('./../../images/landscape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.pokemons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#pokemons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-top: 120px;
+        font-size: 20px;
+
+        li {
+            margin-top: 20px;
+            margin-right: 30px;
+
+        }
+    }
+}
+
+#header-pokemons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Zen Dots', cursive;
+}
+
+#footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#back-btn,
+#next-btn {
+    margin-left: 5px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-family: 'Zen Dots', cursive;
+
+}
+
+#back-btn:hover,
+#next-btn:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
