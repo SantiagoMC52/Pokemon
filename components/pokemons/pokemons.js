@@ -4,7 +4,7 @@ const pagedList = { offset: 0, limit: 20 };
 const createHeader = () => {
   const header = createDomElements('header', '', '', main, 'header-pokemons');
   createDomElements('h1', 'Pokemons - List', '', header);
-  createDomElements('a', 'DASHBOARD', 'http://127.0.0.1:5500/pokemon/components/dashboard/dashboard.html', header);
+  createDomElements('a', 'DASHBOARD', 'http://127.0.0.1:5500/components/dashboard/dashboard.html', header);
 };
 createHeader();
 
