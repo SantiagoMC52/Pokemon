@@ -8,8 +8,8 @@ const pokemonData = getPokemonData(pokemonURL);
 const createHeader = () => {
   const header = createDomElements('header', '', '', main, 'details-header');
   createDomElements('h1', 'Pokemon - Details', '', header);
-  createDomElements('a', 'DASHBOARD', 'http://127.0.0.1:5500/components/dashboard/dashboard.html', header);
-  createDomElements('a', 'ALL POKEMONS', 'http://127.0.0.1:5500/components/pokemons/pokemons.html', header);
+  createDomElements('a', 'DASHBOARD', 'http://127.0.0.1:5500/Pokemon/components/dashboard/dashboard.html', header);
+  createDomElements('a', 'ALL POKEMONS', 'http://127.0.0.1:5500/Pokemon/components/pokemons/pokemons.html', header);
 };
 
 const obtainDetails = () => {
