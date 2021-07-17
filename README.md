@@ -1,9 +1,9 @@
 # Pokemon
 
 <p align="center">
-    <img src="https://i.ibb.co/4RMmSdk/pokemon-detail.png" alt="pokemon-detail">
     <img src="https://i.ibb.co/74nDMjN/pokemon-dashboard.png" alt="pokemon-dashboard">
     <img src="https://i.ibb.co/z7Cq2Jg/pokemon-list.png" alt="pokemon-list">
+    <img src="https://i.ibb.co/4RMmSdk/pokemon-detail.png" alt="pokemon-detail">
 </p>
 
 ## Description
